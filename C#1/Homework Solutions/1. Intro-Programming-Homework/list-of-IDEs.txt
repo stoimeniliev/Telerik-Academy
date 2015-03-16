@@ -1,0 +1,18 @@
+﻿1. Oracle Netbeans 
+Netbeans has excellent Java support. It's claim to fame going as far back as the Sun Microsystems days, other languages like C/C++, Ruby, HTML5, PHP and more are supported as well. Netbeans is extremely extensible via its plugin-centric design, allowing you to add additional language syntax support and libraries, among other things. Netbeans is free under the Common Development and Distribution License (CDDL) v1.0 and GNU General Public License (GPL) v2.
+
+2. Eclipse
+
+This IDE is quite comprehensive and even similar to Netbeans in a variety of ways, including its use of Java and plugin architecture. However, Eclipse as an IDE comes in a wild variety of flavors, catering to various needs and objectives in software development workflows. The Eclipse Foundation even provides a comparison page to view the differences between the variants of Eclipse. Eclipse is free under the terms and conditions of the Eclipse Foundation Software User Agreement unless otherwise specified.
+
+3.Code::Blocks
+
+Unlike the other products seen thus far, Code::Blocks, which is built on the wxWidgets framework, is exceptionally lightweight in size, yet still quite functional and feature-rich IDE. You can load up a number of under-the-hood compiler engines, ranging from GCC and LLVM, to Digital Mars and Open Watcom. Code::Blocks also takes advantage of multi-core compiling, allowing you to get the job done faster. Code::Blocks is distributed under the GPL v3.0 license which means it can be used freely by anyone.
+
+4. Sublime text
+
+Sublime Text is a cross-platform text and source code editor, with a Python application programming interface (API). Sublime Text is proprietary software. Its functionality is extendable with plugins. Most of the extending packages have free-software licenses and are community-built and maintained. Sublime Text lacks graphical setting dialogues and is entirely configured by editing text files.
+
+5. PyCharm
+
+PyCharm is one of the most popular Python IDEs and deservedly so. It’s packed with features such as incredible code completion, code analysis, code navigation, top-notch Django, JavaScript, HTML, and CSS support, great debugger, and much more

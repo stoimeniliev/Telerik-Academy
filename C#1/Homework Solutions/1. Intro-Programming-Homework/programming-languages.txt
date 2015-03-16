@@ -1,0 +1,24 @@
+1.Java
+
+
+On the syntax level, Java was influenced by Smalltalk, while C# tried to stay closer to C/C++ (eg: compare Java's extends and implements with C#'s : notation) and took a vague inspiration from VB on those concepts that weren't mappable to C/C++ (example: property syntax).
+
+On the features level, C# 1 was definitely close to Java. Among the few differences they had, I'd highlight C#'s support for "unsafe" code (including pointers) and for delegates; and Java's controversial throws. This makes sense, since one of the goals of C# was to become an alternative to Java.
+
+
+
+2.C++
+
+C++ is regarded as a mid-level language. This indicates that C++ comprises a combination of both high-level and low-level language features. C# is designed specifically to work with the .Net and is geared to the modern environment of Windows and mouse-controlled user interface, networks and the internet. C++ was designed to be a low-level platform-neutral object-oriented programming language. C# was designed to be a somewhat higher-level component-oriented language. The move to a managed environment represents a sea change in the way you think about programming. C# is about letting go of precise control, and letting the framework help you focus on the big picture.
+
+3.Python
+
+Python is a widely used general-purpose, high-level programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or C#.
+
+4.PHP
+
+PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. PHP is free, and its more like scripting. And not much visual and as powerful as ASP.NET.
+
+5.Javascript
+
+JavaScript is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also used in server-side network programming with runtime environments such as Node.js, game development and the creation of desktop and mobile applications.
