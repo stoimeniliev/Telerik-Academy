@@ -1,0 +1,2 @@
+All of the problems are present. I just made the mistake to put the solutions of the 3rd and 5th problem in the Problem 1 folder.
+Open Problem 1. Fill the matrix and all of the problems will appear in one solution!
