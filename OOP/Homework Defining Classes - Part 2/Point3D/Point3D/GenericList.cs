@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Problem_1.Define_class
+namespace Point3D
 {
-    class DefineClass
+    class Generic
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
