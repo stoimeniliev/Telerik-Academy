@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Point3D
 {
-    class Generic
+    public class GenericList<T>
     {
     }
 }

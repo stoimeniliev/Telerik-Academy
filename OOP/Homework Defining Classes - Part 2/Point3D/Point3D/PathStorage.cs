@@ -31,40 +31,35 @@ namespace Point3D
 
         }
         //This method reads the desired file containing a Path. Found in "Homework Defining Classes - Part 2\Point3D\Point3D\bin\Debug"
-        public static string ReadPath(string fileName)
+
+
+        public static Path LoadFromFile(string fileName)
         {
-
-
-            using (StreamReader streamReader = new StreamReader(fileName))
-            {
-                while (true)
-                {
-                    string line = streamReader.ReadLine();
-                    if (line == null)
-                    {
-                        return "";
-                    }
-
-                    try
-                    {
-                        return line;
-                    }
-                    catch (IndexOutOfRangeException)
-                    {
-                        Console.WriteLine("Some error while reading!");
-                    }
-
-                }
-            }
-        }
-
-        public static string LoadFromFile(string fileName)
-        {
-            StreamReader reader = new StreamReader(fileName);
+            StreamReader reader = new StreamReader(fileName + ".txt");
+            Path loadedPath = new Path();
+            Point3D currentPoint3D = new Point3D();
             using (reader)
             {
-                return reader.ReadToEnd();
+                while (reader.EndOfStream == false)
+                {
+                    string[] separators = new string[]
+                    {
+                        "{{",
+                        "}}",
+                        "{",
+                        "}",
+                        ";"
+                    };
+                    string currentRow = reader.ReadLine();
+                    string[] currentPoint = currentRow.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+                    currentPoint3D.X = decimal.Parse(currentPoint[0]);
+                    currentPoint3D.Y = decimal.Parse(currentPoint[1]);
+                    currentPoint3D.Z = decimal.Parse(currentPoint[2]);
+                    loadedPath.AddPoint(currentPoint3D);
+                }
             }
+            reader.Close();
+            return loadedPath;
         }
     }
 
