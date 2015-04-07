@@ -8,5 +8,9 @@ namespace Problem_1.School_classes
 {
     class Classes
     {
+        private List<Teachers> teacherList = new List<Teachers>();
+        private string className;
+
+
     }
 }

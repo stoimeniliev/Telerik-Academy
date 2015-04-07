@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E86285D-FA7E-42E2-AE50-EE6CBF9B2DD5}</ProjectGuid>
+    <ProjectGuid>{C3F986EC-68E8-47EA-9F91-DDD542C2B206}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem_1.School_classes</RootNamespace>
-    <AssemblyName>Problem_1.School_classes</AssemblyName>
+    <RootNamespace>BankAccounts</RootNamespace>
+    <AssemblyName>BankAccounts</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="School.cs" />
-    <Compile Include="Students.cs" />
-    <Compile Include="Teachers.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="Accounts.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomersEnum.cs" />
+    <Compile Include="Deposits.cs" />
+    <Compile Include="Loans.cs" />
+    <Compile Include="Mortgage.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

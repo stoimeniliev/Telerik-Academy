@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E86285D-FA7E-42E2-AE50-EE6CBF9B2DD5}</ProjectGuid>
+    <ProjectGuid>{6AFA6E0E-3357-479E-9136-C0256D7A7377}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem_1.School_classes</RootNamespace>
-    <AssemblyName>Problem_1.School_classes</AssemblyName>
+    <RootNamespace>_03.RangeExceptions</RootNamespace>
+    <AssemblyName>_03.RangeExceptions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="School.cs" />
-    <Compile Include="Students.cs" />
-    <Compile Include="Teachers.cs" />
+    <Compile Include="InvalidRangeException.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
